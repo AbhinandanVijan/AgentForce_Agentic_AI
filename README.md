@@ -8,7 +8,20 @@ Salesforce Agent - Build on Coral Cloud Resort Trailhead
 
 ## Installation
 1. Clone the repository.
-2. Install the required packages using:
+2. Create a virtual environment:
+   ```
+   python -m venv venv
+   ```
+3. Activate the virtual environment:
+   - On Windows:
+     ```
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```
+     source venv/bin/activate
+     ```
+4. Install the required packages using:
    ```
    pip install -r requirements.txt
    ```
