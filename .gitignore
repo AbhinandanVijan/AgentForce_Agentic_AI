@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# OS / IDE specific
+__pycache__/
+.DS_Store
+*.log
+
+# Extra folders you don’t want in repo
+extras/
+
+# Documentation files
+*.md
