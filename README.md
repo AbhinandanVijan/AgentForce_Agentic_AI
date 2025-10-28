@@ -26,6 +26,20 @@ Salesforce Agent - Build on Coral Cloud Resort Trailhead
    pip install -r requirements.txt
    ```
 
+## Environment Variables
+Create a `.env` file in the project root directory with the following content:
+
+```
+HF_TOKEN=<your_huggingface_token>
+SF_API_HOST="https://api.salesforce.com"
+SF_ORG_DOMAIN=<your_salesforce_org_domain>
+SF_CLIENT_ID=<your_salesforce_client_id>
+SF_CLIENT_SECRET=<your_salesforce_client_secret>
+SF_AGENT_ID=<your_salesforce_agent_id>
+```
+
+Replace `<your_huggingface_token>`, `<your_salesforce_org_domain>`, `<your_salesforce_client_id>`, `<your_salesforce_client_secret>`, and `<your_salesforce_agent_id>` with your actual credentials.
+
 ## Usage
 Run the main application to interact with the Salesforce agent:
 ```
